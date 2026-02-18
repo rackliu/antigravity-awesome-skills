@@ -7,6 +7,315 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.6.0] - 2026-02-17 - "Autonomous Agents & Trusted Workflows"
+
+> **DBOS for reliable workflows, Crypto BD agents, and improved usage documentation.**
+
+This release introduces official DBOS skills for building fault-tolerant applications in TypeScript, Python, and Go, plus a sophisticated autonomous Business Development agent for crypto, and a comprehensive usage guide to help new users get started.
+
+### Added
+
+- **DBOS Skills** (Official):
+  - `dbos-typescript`: Durable workflows and steps for TypeScript.
+  - `dbos-python`: Fault-tolerant Python applications.
+  - `dbos-golang`: Reliable Go services.
+- **New Skill**: `crypto-bd-agent` - Autonomous BD patterns for token discovery, scoring, and outreach with wallet forensics.
+- **Documentation**: New `docs/USAGE.md` guide addressing post-installation confusion (how to prompt, where skills live).
+
+### Registry
+
+- **Total Skills**: 864 (from 860).
+- **Generated Files**: Synced `skills_index.json`, `data/catalog.json`, and `README.md`.
+
+### Contributors
+
+- **[@maxdml](https://github.com/maxdml)** - DBOS Skills (PR #94).
+- **[@buzzbysolcex](https://github.com/buzzbysolcex)** - Crypto BD Agent (PR #92).
+- **[@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)** - Usage Guide (PR #93).
+
+---
+
+## [5.5.0] - 2026-02-16 - "Laravel Pro & ReactFlow Architect"
+
+> **Advanced Laravel engineering roles and ReactFlow architecture patterns.**
+
+This release introduces professional Laravel capabilities (Expert & Security Auditor) and a comprehensive ReactFlow Architect skill for building complex node-based applications.
+
+### Added
+
+- **New Skill**: `laravel-expert` - Senior Laravel Engineer role for production-grade, maintainable, and idiomatic solutions (clean architecture, security, performance).
+- **New Skill**: `laravel-security-audit` - Specialized security auditor for Laravel apps (OWASP, vulnerabilities, misconfigurations).
+- **New Skill**: `react-flow-architect` - Expert ReactFlow patterns for interactive graph apps (hierarchical navigation, performance, customized state management).
+
+### Changed
+
+- **OpenCode**: Updated installation path to `.agents/skills` to align with latest OpenCode standards.
+
+### Registry
+
+- **Total Skills**: 860 (from 857).
+- **Generated Files**: Synced `skills_index.json`, `data/catalog.json`, and `README.md`.
+
+### Contributors
+
+- **[@Musayrlsms](https://github.com/Musayrlsms)** - Laravel Expert & Security Audit skills (PR #85, #86).
+- **[@mertbaskurt](https://github.com/mertbaskurt)** - ReactFlow Architect skill (PR #88).
+- **[@sharmanilay](https://github.com/sharmanilay)** - OpenCode path fix (PR #87).
+
+---
+
+## [5.4.0] - 2026-02-16 - "CursorRules Pro & Go-Rod"
+
+> **Community contributions: CursorRules Pro in credits and go-rod-master skill for browser automation with Go.**
+
+This release adds CursorRules Pro to Community Contributors and a new skill for browser automation and web scraping with go-rod (Chrome DevTools Protocol) in Golang, including stealth and anti-bot-detection patterns.
+
+### New Skills
+
+#### go-rod-master ([skills/go-rod-master/](skills/go-rod-master/))
+
+**Browser automation and web scraping with Go and Chrome DevTools Protocol.**
+Comprehensive guide for the go-rod library: launch and page lifecycle, Must vs error patterns, context and timeouts, element selectors, auto-wait, and integration with go-rod/stealth for anti-bot detection.
+
+- **Key features**: CDP-native driver, thread-safe operations, stealth plugin, request hijacking, concurrent page pools.
+- **When to use**: Scraping or automating sites with Go, headless browser for SPAs, stealth/anti-bot needs, migrating from chromedp or Playwright Go.
+
+> **Try it:** "Automate logging into example.com with Go using go-rod and stealth."
+
+### Registry
+
+- **Total Skills**: 857 (from 856).
+- **Generated files**: README, skills_index.json, catalog, and bundles synced.
+
+### Credits
+
+- **[@Wittlesus](https://github.com/Wittlesus)** - CursorRules Pro in Community Contributors (PR #81).
+- **[@8hrsk](https://github.com/8hrsk)** - go-rod-master skill (PR #83).
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+---
+
+## [5.3.0] - 2026-02-13 - "Advanced Three.js & Modern Graphics"
+
+> **Enhanced Three.js patterns: performance, visual polish, and production practices.**
+
+This release significantly upgrades our 3D visualization capabilities with a comprehensive Three.js skill upgrade, focusing on CDN-compatible patterns, performance optimizations, and modern graphics techniques like shadows, fog, and GSAP integration.
+
+### Added
+
+- **Modern Three.js Patterns**: Comprehensive guide for `r128` (CDN) and production environments.
+- **Visual Polish**: Advanced sections for shadows, environment maps, and tone mapping.
+- **Interaction Models**: Custom camera controls (OrbitControls alternative) and raycasting for object selection.
+- **Production Readiness**: Integration patterns for GSAP, scroll-based animations, and build tool optimizations.
+
+### Registry
+
+- **Total Skills**: 856.
+- **Metadata**: Fixed missing source and risk fields for `threejs-skills`.
+- **Sync**: All discovery artifacts (README, Catalog, Index) updated and synced.
+
+### Contributors
+
+- **[@Krishna-hehe](https://github.com/Krishna-hehe)** - Advanced Three.js skill overhaul (PR #78).
+
+---
+
+> **New AI capabilities: Podcast Generation, Azure Identity, and Self-Evolving Agents.**
+
+### Added
+
+- **New Skill**: `podcast-generation` - Create multi-speaker podcasts from text/URLs using OpenAI Text-to-Speech (TTS) and pydub.
+- **New Skill**: `weevolve` - Self-evolving knowledge engine with recursive improvement protocol.
+- **Azure Skills Expansion**:
+  - `azure-ai-agents-persistent-dotnet`: Persistent agent patterns for .NET.
+  - `azure-ai-agents-persistent-java`: Persistent agent patterns for Java.
+  - `azd-deployment`: Azure Developer CLI deployment strategies.
+- **Python Enhancements**:
+  - `pydantic-models-py`: Robust data validation patterns.
+  - `fastapi-router-py`: Scalable API routing structures.
+
+### Registry
+
+- **Total Skills**: 856 (from 845).
+- **Generated Files**: Synced `skills_index.json`, `data/catalog.json`, and `README.md`.
+
+### Contributors
+
+- **[@sickn33](https://github.com/sickn33)** - Podcast Generation & Azure skills sync (PR #74).
+- **[@aro-brez](https://github.com/aro-brez)** - WeEvolve skill (Issue #75).
+
+---
+
+## [5.1.0] - 2026-02-12 - "Official Microsoft & Gemini Skills"
+
+> **845+ skills: the largest single-PR expansion ever, powered by official vendor collections.**
+
+Integrates the full official Microsoft skills collection (129 skills) and Google Gemini API development skills, significantly expanding Azure SDK coverage across .NET, Python, TypeScript, Java, and Rust, plus M365 Agents, Semantic Kernel, and wiki plugin skills.
+
+### Added
+
+- **129 Microsoft Official Skills** from [microsoft/skills](https://github.com/microsoft/skills):
+  - Azure SDKs across .NET, Python, TypeScript, Java, and Rust
+  - M365 Agents, Semantic Kernel, and wiki plugin skills
+  - Flat structure using YAML `name` field as directory name
+  - Attribution files: `docs/LICENSE-MICROSOFT`, `docs/microsoft-skills-attribution.json`
+- **Gemini API Skills**: Official Gemini API development skill under `skills/gemini-api-dev/`
+- **New Scripts & Tooling**:
+  - `scripts/sync_microsoft_skills.py` (v4): Flat-structure sync with collision detection, stale cleanup, and attribution metadata
+  - `scripts/tests/inspect_microsoft_repo.py`: Remote repo inspection
+  - `scripts/tests/test_comprehensive_coverage.py`: Coverage verification
+- **New npm scripts**: `sync:microsoft` and `sync:all-official` in `package.json`
+
+### Fixed
+
+- **`scripts/generate_index.py`**: Enhanced frontmatter parsing for unquoted `@` symbols and commas
+- **`scripts/build-catalog.js`**: Deterministic `generatedAt` timestamp (prevents CI drift)
+
+### Registry
+
+- **Total Skills**: 845 (from 626). All generated files synced.
+
+### Contributors
+
+- [@ar27111994](https://github.com/ar27111994) - Microsoft & Gemini skills integration (PR #73)
+
+---
+
+## [5.0.0] - 2026-02-10 - "Antigravity Workflows Foundation"
+
+> Workflows are now first-class: users can run guided, multi-skill playbooks instead of manually composing skills one by one.
+
+### Added
+
+- **New orchestration skill**: `antigravity-workflows`
+  - `skills/antigravity-workflows/SKILL.md`
+  - `skills/antigravity-workflows/resources/implementation-playbook.md`
+- **New workflow documentation**: `docs/WORKFLOWS.md`
+  - Introduces the Workflows model and differentiates it from Bundles.
+  - Provides execution playbooks with prerequisites, ordered steps, and prompt examples.
+- **New machine-readable workflow registry**: `data/workflows.json`
+  - `ship-saas-mvp`
+  - `security-audit-web-app`
+  - `build-ai-agent-system`
+  - `qa-browser-automation`
+
+### Changed
+
+- **README / Onboarding docs** updated to include Workflows discovery and usage:
+  - `README.md` (TOC + "Antigravity Workflows" section)
+  - `docs/GETTING_STARTED.md` (Bundles vs Workflows guidance)
+  - `docs/FAQ.md` (new Q&A: Bundles vs Workflows)
+- **Go browser automation alignment**:
+  - Workflow playbooks now include optional `@go-playwright` hooks for Go-based QA/E2E flows.
+- **Registry sync** after workflow skill addition:
+  - `CATALOG.md`
+  - `skills_index.json`
+  - `data/catalog.json`
+  - `data/bundles.json`
+
+### Contributors
+
+- [@sickn33](https://github.com/sickn33) - Workflows architecture, docs, and release integration
+
+---
+
+## [4.11.0] - 2026-02-08 - "Clean Code & Registry Stability"
+
+> Quality improvements: Clean Code principles and deterministic builds.
+
+### Changed
+
+- **`clean-code` skill** - Complete rewrite based on Robert C. Martin's "Clean Code":
+  - Systematic coverage: Meaningful names, functions, comments, formatting, objects, error handling, unit tests, and classes
+  - Added F.I.R.S.T. test principles and Law of Demeter guidance
+  - Fixed invalid heading format (`## ## When to Use` → `## When to Use`) that blocked validation
+  - Added implementation checklist and code smell detection
+- **Registry Stabilization** - Fixed `scripts/build-catalog.js` for deterministic CI builds:
+  - Uses `SOURCE_DATE_EPOCH` environment variable for reproducible timestamps
+  - Replaced `localeCompare` with explicit comparator for consistent sorting across environments
+  - Prevents CI validation failures caused by timestamp drift
+
+### Contributors
+
+- [@jackjin1997](https://github.com/jackjin1997) - Clean Code skill update and registry fixes (PR #69, forged at [ClawForge](https://github.com/jackjin1997/ClawForge))
+
+---
+
+## [4.10.0] - 2026-02-06 - "Composio Automation + .NET Backend"
+
+> A major expansion focused on practical app automation and stronger backend engineering coverage.
+
+### Added
+
+- **79 new skills total**.
+- **78 Composio/Rube automation skills** (PR #64), with operational playbooks for:
+- CRM and sales stacks (`HubSpot`, `Pipedrive`, `Salesforce`, `Zoho CRM`, `Close`).
+- Collaboration and project tools (`Notion`, `ClickUp`, `Asana`, `Jira`, `Confluence`, `Trello`, `Monday`).
+- Messaging and support channels (`Slack`, `Discord`, `Teams`, `Intercom`, `Freshdesk`, `Zendesk`).
+- Marketing and analytics systems (`Google Analytics`, `Mixpanel`, `PostHog`, `Segment`, `Mailchimp`, `Klaviyo`).
+- Infra/dev tooling (`GitHub`, `GitLab`, `CircleCI`, `Datadog`, `PagerDuty`, `Vercel`, `Render`).
+- **1 new `dotnet-backend` skill** (PR #65) with:
+- ASP.NET Core 8+ API patterns (Minimal APIs + controller-based).
+- EF Core usage guidance, JWT auth examples, and background worker templates.
+- Explicit trigger guidance and documented limitations.
+- **Registry size increased to 713 skills** (from 634).
+
+### Changed
+
+- Regenerated and synced discovery artifacts after merging both PRs:
+- `README.md` (counts + contributor updates)
+- `skills_index.json`
+- `CATALOG.md`
+- `data/catalog.json`
+- `data/bundles.json`
+- `data/aliases.json`
+- Release metadata updated for `v4.10.0`:
+- `package.json` / `package-lock.json` version bump
+- GitHub Release object published with release notes
+
+### Contributors
+
+- [@sohamganatra](https://github.com/sohamganatra) - 78 Composio automation skills (PR #64)
+- [@Nguyen-Van-Chan](https://github.com/Nguyen-Van-Chan) - .NET backend skill (PR #65)
+
+## [4.9.0] - 2026-02-05 - "OSS Hunter & Universal Skills"
+
+> Automated contribution hunting and universal CLI AI skills (Audio, YouTube, Prompt Engineering).
+
+### Added
+
+- **New Skill**: `oss-hunter` – Automated tool for finding high-impact Open Source contributions (Good First Issues, Help Wanted) in trending repositories.
+- **New Skill**: `audio-transcriber` – Transform audio recordings into professional Markdown with Whisper integration.
+- **New Skill**: `youtube-summarizer` – Generate comprehensive summaries/notes from YouTube videos.
+- **New Skill**: `prompt-engineer` (Enhanced) – Now includes 11 optimization frameworks (RTF, RISEN, etc.).
+- **Registry**: 634 skills (from 626). Catalog regenerated.
+
+### Changed
+
+- **CLI AI Skills**: Merged core skills from `ericgandrade/cli-ai-skills`.
+
+### Contributors
+
+- [@jackjin1997](https://github.com/jackjin1997) - OSS Hunter (PR #61)
+- [@ericgandrade](https://github.com/ericgandrade) - CLI AI Skills (PR #62)
+
+## [4.7.0] - 2026-02-03 - "Installer Fix & OpenCode Docs"
+
+> Critical installer fix for Windows and OpenCode documentation completion.
+
+### Fixed
+
+- **Installer**: Resolved `ReferenceError` for `tagArg` variable in `bin/install.js` ensuring correct execution on Windows/PowerShell (PR #53).
+
+### Documentation
+
+- **OpenCode**: Completed documentation for OpenCode integration in `README.md`.
+
+---
+
 ## [4.6.0] - 2026-02-01 - "SPDD & Radix UI Design System"
 
 > Agent workflow docs (SPDD) and Radix UI design system skill.
