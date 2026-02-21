@@ -7,6 +7,131 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [5.9.0] - 2026-02-20 - "Apple HIG & Quality Bar"
+
+> **Extensive Apple design guidelines and strict validation for the entire registry.**
+
+This release adds the official Apple Human Interface Guidelines skills suite, enforces strict agentskills-ref metadata validation across all skills, and addresses critical path resolution bugs in the CLI installer along with dangling link validation to prevent agent token waste.
+
+## 🚀 New Skills
+
+### 🍎 [apple-hig-skills](skills/hig-platforms/)
+
+**Comprehensive platform and UX guidelines for Apple ecosystems.**
+Official guidelines covering iOS, macOS, visionOS, watchOS, and tvOS natively formatted for AI consumption.
+
+- **Key Feature 1**: Deep dives into spatial layout, interactions, and modalities.
+- **Key Feature 2**: Component-level guidelines for status bars, dialogs, charts, and input mechanisms (Pencil, Digital Crown).
+
+> **Try it:** `Use @hig-platforms to review if our iPad app navigation follows standard iOS paradigms.`
+
+### 👁️ [manifest](skills/manifest/)
+
+**Observability plugin setup guide for AI agents.**
+Walks through a 6-step setup for the Manifest observability platform, including troubleshooting for common errors.
+
+- **Key Feature**: Complete configuration wizard from obtaining API keys to verifying traces.
+
+> **Try it:** `Use @manifest to add observability to our local python agent.`
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 883 skills.
+- **CLI Installer**: Fixed the default `.agent/skills` path to properly default to `~/.gemini/antigravity/skills` and added an explicit `--antigravity` flag (fixes #101).
+- **Validation**: Enforced strict folder-to-name matching and concise (<200 char) descriptions based on `agentskills-ref` (fixes #97).
+- **Validation**: Added build-time Markdown dangling link validation to `validate_skills.py` to prevent agents from hallucinating relative paths (fixes #102).
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@raintree-technology** for the Apple HIG Skills (PR #90)
+- **@sergeyklay** for the skill quality validations (PR #97)
+- **@SebConejo** for the manifest observability skill (PR #103)
+- **@community** for identifying installer and link bugs (Issues #101, #102)
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+## [5.8.0] - 2026-02-19 - "Domain-Driven Design Suite"
+
+> **First full DDD skill suite: strategic design, context mapping, and tactical patterns for complex domains.**
+
+This release introduces a comprehensive Domain-Driven Design skill suite (4 new skills) contributed by the community, plus playbook fixes for saga-orchestration and event-store-design, and new DDD-themed bundle and workflow entries.
+
+## 🚀 New Skills
+
+### 🏗️ [domain-driven-design](skills/domain-driven-design/)
+
+**Entry point and router for all DDD adoption decisions.**
+Covers viability checks, routing to strategic/tactical/evented sub-skills, and output requirements.
+
+- **Key Feature**: Viability check gate — avoids over-engineering simple systems.
+- **Key Feature**: Routing map to `@ddd-strategic-design`, `@ddd-context-mapping`, `@ddd-tactical-patterns`, CQRS, event sourcing, sagas, projections.
+
+> **Try it:** `Use @domain-driven-design to assess if this billing platform should adopt full DDD.`
+
+### 🗺️ [ddd-strategic-design](skills/ddd-strategic-design/)
+
+**Subdomains, bounded contexts, and ubiquitous language.**
+Produces subdomain classification tables, bounded context catalogs, and glossaries.
+
+### 🔗 [ddd-context-mapping](skills/ddd-context-mapping/)
+
+**Cross-context integration contracts and anti-corruption layers.**
+Defines upstream/downstream ownership, translation rules, and versioning policies.
+
+### 🧩 [ddd-tactical-patterns](skills/ddd-tactical-patterns/)
+
+**Aggregates, value objects, repositories, and domain events in code.**
+Includes a TypeScript aggregate example with invariant enforcement.
+
+---
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking 868 skills.
+- **saga-orchestration** and **event-store-design**: Added missing `resources/implementation-playbook.md`.
+- **docs/BUNDLES.md**: Added DDD & Evented Architecture bundle section.
+- **docs/WORKFLOWS.md** + **data/workflows.json**: New "Design a DDD Core Domain" workflow entry.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **[@rcigor](https://github.com/rcigor)** for the full DDD skill suite (PR #98)
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+---
+
+## [5.7.0] - 2026-02-18 - "Yandex Direct Audit"
+
+> **First agentic skill for the Russian PPC market, offering comprehensive Yandex Direct account auditing.**
+
+### Added
+
+- **New External Skill**: `yandex-direct-audit` (Silverov/yandex-direct-skill)
+  - 55 automated checks for Yandex Direct (API v5).
+  - A-F scoring system.
+  - Comprehensive campaign, ad, and keyword analysis.
+
+### Registry
+
+- **Total Skills**: 864.
+- **Generated Files**: Synced artifacts.
+
+### Credits
+
+- **[@Silverov](https://github.com/Silverov)** - Yandex Direct Audit skill (PR #95).
+
+---
+
 ## [5.6.0] - 2026-02-17 - "Autonomous Agents & Trusted Workflows"
 
 > **DBOS for reliable workflows, Crypto BD agents, and improved usage documentation.**
