@@ -1,10 +1,9 @@
 ---
 name: trello-automation
 description: "Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and search across boards programmatically."
-requires:
-  mcp: [rube]
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
 # Trello Automation via Rube MCP
@@ -20,7 +19,6 @@ Automate Trello board management, card creation, and team workflows through Comp
 ## Setup
 
 **Get Rube MCP**: Add `https://rube.app/mcp` as an MCP server in your client configuration. No API keys needed — just add the endpoint and it works.
-
 
 1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds
 2. Call `RUBE_MANAGE_CONNECTIONS` with toolkit `trello`

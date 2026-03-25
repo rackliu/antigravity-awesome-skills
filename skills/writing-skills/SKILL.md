@@ -1,15 +1,10 @@
 ---
 name: writing-skills
 description: "Use when creating, updating, or improving agent skills."
-metadata:
-  category: meta
-  author: ozy
-  triggers: new skill, create skill, update skill, skill documentation, skill template,
-    agent skill, writing skill
-  references: anti-rationalization, cso, standards, templates, testing, tier-1-simple,
-    tier-2-expanded, tier-3-platform
+category: meta
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
 # Writing Skills (Excellence)
@@ -51,7 +46,6 @@ Dispatcher for skill creation excellence. Use the decision tree below to find th
 - [Pattern Skill](references/templates/pattern.md) (Design Patterns)
 
 ## When to Use
-
 - Creating a NEW skill from scratch
 - Improving an EXISTING skill that agents ignore
 - Debugging why a skill isn't being triggered

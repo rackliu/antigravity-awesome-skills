@@ -1,10 +1,9 @@
 ---
 name: todoist-automation
 description: "Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio). Always search tools first for current schemas."
-requires:
-  mcp: [rube]
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
 # Todoist Automation via Rube MCP
@@ -20,7 +19,6 @@ Automate Todoist operations including task creation and management, project orga
 ## Setup
 
 **Get Rube MCP**: Add `https://rube.app/mcp` as an MCP server in your client configuration. No API keys needed — just add the endpoint and it works.
-
 
 1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds
 2. Call `RUBE_MANAGE_CONNECTIONS` with toolkit `todoist`

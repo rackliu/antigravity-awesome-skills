@@ -1,17 +1,10 @@
 ---
 name: content-creator
-description: "Create SEO-optimized marketing content with consistent brand voice. Includes brand voice analyzer, SEO optimizer, content frameworks, and social media templates. Use when writing blog posts, creati..."
-license: MIT
-metadata:
-  version: 1.0.0
-  author: Alireza Rezvani
-  category: marketing
-  domain: content-marketing
-  updated: 2025-10-20
-  python-tools: brand_voice_analyzer.py, seo_optimizer.py
-  tech-stack: SEO, social-media-platforms
+description: "Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks."
+category: marketing
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
 # Content Creator
@@ -19,7 +12,6 @@ source: community
 Professional-grade brand voice analysis, SEO optimization, and platform-specific content frameworks.
 
 ## When to Use
-
 Use this skill when writing blog posts, creating social media content, establishing brand voice, optimizing content for SEO, or planning content calendars.
 
 ## Keywords

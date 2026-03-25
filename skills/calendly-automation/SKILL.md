@@ -1,10 +1,9 @@
 ---
 name: calendly-automation
 description: "Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composio). Always search tools first for current schemas."
-requires:
-  mcp: [rube]
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
 # Calendly Automation via Rube MCP
@@ -21,7 +20,6 @@ Automate Calendly operations including event listing, invitee management, schedu
 ## Setup
 
 **Get Rube MCP**: Add `https://rube.app/mcp` as an MCP server in your client configuration. No API keys needed — just add the endpoint and it works.
-
 
 1. Verify Rube MCP is available by confirming `RUBE_SEARCH_TOOLS` responds
 2. Call `RUBE_MANAGE_CONNECTIONS` with toolkit `calendly`

@@ -1,9 +1,9 @@
 ---
 name: web-artifacts-builder
-description: "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state ma..."
-license: Complete terms in LICENSE.txt
+description: "To build powerful frontend claude.ai artifacts, follow these steps:"
 risk: unknown
 source: community
+date_added: "2026-02-27"
 ---
 
 # Web Artifacts Builder
